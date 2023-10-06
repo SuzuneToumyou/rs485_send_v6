@@ -127,7 +127,7 @@ if __name__ == "__main__":
     return_data = senser_get(ser_v,pi2)
     if return_data == 0:
         num = 0
-        while return_data == 0 or num <= 3:
+        while return_data == 0 and num <= 3:
             return_data = senser_get(ser_v,pi2)
             num = num + 1
     pi2.stop()
