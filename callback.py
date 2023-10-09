@@ -98,3 +98,4 @@ while True:
                 print(tmp)
                 print("packet error")
                 tmp=0
+pi.stop()
